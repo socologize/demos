@@ -27,3 +27,21 @@ if you have a memory sample and want to run in automode:
 Or if you just want to setup the case structure to parse memory:
 
 >>> $ volatize.py parsemem --setup --memory "path/to/memory/sample"
+
+# How To Use the VOLCASE Structure?
+VOLCASE is a small script that organizes a set of folders to keep you productive and organized in your own workflow.
+The case structure and its synopsis is:
+
+______________________________________________________________________
+           Case Structure for Memory Analysis
+
+              BULKEX  :  Dump BulkExtractor Output
+               DUMPS  :  Dump PIDS, DLLS, etc.
+             PLUGINS  :  Dump Volatility Plugins Output
+           PROFILING  :  Dump Special Profiling Items
+             STRINGS  :  Dump Strings Utility Output
+           TIMELINES  :  Dump Body Format Output
+                VADS  :  Dump VADS from PIDS
+           YARASCANS  :  Dump Yarascan Output
+
+______________________________________________________________________
