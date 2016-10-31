@@ -22,4 +22,4 @@ While many great researchers are developing Flask, Django or other forms of auto
 # How To Run?
 if you have a memory sample and want to run everything:
 
->>> $ volatize.py parsemem --auto --memory <path/to/memory/sample>
+>>> $ volatize.py parsemem --auto --memory "path/to/memory/sample"
