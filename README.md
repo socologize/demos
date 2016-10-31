@@ -60,7 +60,6 @@ ______________________________________________________________________
 
 When you run volatize.py in "--auto" or "--parse" mode, the Volatility plugins will save text files under the PLUGINS folder.
 
-______________________________________________________________________
  PLUGINS/
 	├── amcache.text
 	├── atoms.text
