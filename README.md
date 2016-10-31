@@ -25,9 +25,14 @@ You need the following packages installed to use Volatize
 - Volatility
 
 # Why Volatize
-Intended to maximize productivity when analyzing memdumps.  I saved 71 minutes of just typing and waiting for output from the plugins I would run. Also, the concepts of playbooks being just visio diagrams and hard to manage scripts are a great benefit for those trying to digitize the playbooks they have within their orgs.  
+Intended to maximize productivity when analyzing memdumps.  I saved 71 minutes of just typing and waiting for output from the plugins I would run. Also, the concept of playbooks left unattended as visio diagrams and hard to manage scripts are an ineffective way to lead robust security operations. The usage of Volatize is intended to fix this by digitizing your visios, processes, or notes into a digital playbook for memory forensics.  
 
-While many great researchers are developing Flask, Django or other forms of automated tools, I am focusing on lightweight CLI workflows. Kudos to the authors of such tools.
+All tactical teams benefit by trying to digitize the playbooks they have within their orgs with tools like Volatize.  If you do not have the in-house expertise, reach out to me (us) and we will gladly help add your playbooks to the tool.  
+
+# Are there other tools already?
+While many great researchers are developing Flask, Django or other forms of automated tools, I am focusing on lightweight CLI workflows. 
+
+Kudos to the authors of such tools like vortessence, volutility, volatility-bot, etc.!
 
 # How To Run?
 if you have a memory sample and want to run in automode:
@@ -71,3 +76,9 @@ _______________________________________________________________________
 	 -> callbacks.text
 	 -> clipboard.text
 _______________________________________________________________________
+
+
+# Shoutouts
+@aboutsecurity from Foundstone Intel Security Group on 'Fit for Purpose' feedback
+@rwgresham from Foundstone Intel Security Group on Bash prototypes for automation
+@jx212fs from Foundstone Intel Security Group on code refinement and 'can-do' attitude
