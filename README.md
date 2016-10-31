@@ -1,10 +1,20 @@
 # demos
-Prototype Demo Code
+Prototype Demo Code for security community
 
 
 # Volatize.py
 An automation tool for the Volatility Memory Forensics Framework. Focused on analysis productivity.
 Current DEMO CODE works on Python 2.7.x
+
+______________________________________________________________________
+ Volatility Foundation (c) - An advanced  memory forensics framework
+______________________________________________________________________
+
+ Volatize.py By The Foundstone IR Group - Volatility Automation Tool
+
+	     Demo Version: GitHub://
+_____________________________________________________________________
+
 
 # Dependencies
 You need the following packages installed to use Volatize
@@ -45,3 +55,9 @@ ______________________________________________________________________
            YARASCANS  :  Dump Yarascan Output
 
 ______________________________________________________________________
+
+
+
+ When you run volatize.py in "--auto" or "--parse" mode, the Volatility plugins will save text files under the PLUGINS folder.
+ 
+ 
