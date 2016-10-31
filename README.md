@@ -20,6 +20,10 @@ Intended to maximize productivity when analyzing memdumps.  I saved 71 minutes o
 While many great researchers are developing Flask, Django or other forms of automated tools, I am focusing on lightweight CLI workflows. Kudos to the authors of such tools.
 
 # How To Run?
-if you have a memory sample and want to run everything:
+if you have a memory sample and want to run in automode:
 
 >>> $ volatize.py parsemem --auto --memory "path/to/memory/sample"
+
+Or if you just want to setup the case structure to parse memory:
+
+>>> $ volatize.py parsemem --setup --memory "path/to/memory/sample"
