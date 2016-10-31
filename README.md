@@ -24,6 +24,23 @@ You need the following packages installed to use Volatize
 - tqdm      : pip install tqdm
 - Volatility
 
+# Configuration Needed
+To have a clean experience of Volatize, we have to make a small modification to the Volatility application (i.e., vol.py)
+
+1. Find your Volatility main script.  Mine is is located under /usr/local/bin/vol.py
+>>> $ which vol.py
+
+2. Use an editor to edit LINE # 139 of vol.py by placing a pound symbol in front.  Should look like this:
+>>> Line 139:  #sys.stderr.write("Volatility Foundation Volatility Framework {0}\n".format(constants.VERSION))
+
+3. ( Optional ), if you do not have a symbolic link of Volatility, create one like this:
+>>> $ sudo ln -s /path/of/volatility /usr/local/bin/vol.py
+________________________________________________________________________
+*** Note:  Volatize calls vol.py as "vol.py"
+	   You need to ensure Volatility is accessed globally
+	   as " vol.py "
+________________________________________________________________________
+
 # Why Volatize
 Intended to maximize productivity when analyzing memdumps.  I saved 71 minutes of just typing and waiting for output from the plugins I would run. Also, the concept of playbooks left unattended as visio diagrams and hard to manage scripts are an ineffective way to lead robust security operations. The usage of Volatize is intended to fix this by digitizing your visios, processes, or notes into a digital playbook for memory forensics.  
 
