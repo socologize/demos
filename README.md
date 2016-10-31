@@ -29,10 +29,20 @@ Intended to maximize productivity when analyzing memdumps.  I saved 71 minutes o
 
 All tactical teams benefit by trying to digitize the playbooks they have within their orgs with tools like Volatize.  If you do not have the in-house expertise, reach out to me (us) and we will gladly help add your playbooks to the tool.  
 
+
 # Are there other tools already?
 While many great researchers are developing Flask, Django or other forms of automated tools, I am focusing on lightweight CLI workflows. 
 
 Kudos to the authors of such tools like vortessence, volutility, volatility-bot, etc.!
+
+
+# How to access the Help Menu?
+>>> $ volatize.py --help
+
+>>> $ volatize.py parsemem --help
+
+>>> $ volatize.py playbook --help
+
 
 # How To Run the Parse Memory mode?
 
@@ -46,6 +56,7 @@ Or if you just want to setup the case structure to parse memory:
 
 This mode runs a series of Volatility plugins specific to the Windows Memory profile you have.
 
+
 # How To Run the Playbook mode?
 In Volatize, playbooks are ideas translated to script code that create a digitized playbook.  You can find the playbook scripts under the "playbook" folder.
 
@@ -56,6 +67,7 @@ In Volatize, playbooks are ideas translated to script code that create a digitiz
 
 # Quick Explanation on Profile Independent Automation
 [![VOLATIZE DEMO](https://lh3.googleusercontent.com/oJZCPKaa0w8_TVtb90JL-yUOPNCR1qcIq3PXRwVpZtSUYS-wJnK6LvvcUrHJ0Ve5WuhYng=s152)](https://www.youtube.com/watch?v=dWQ_tNAnKXA, "Volatize Auto")
+
 
 # How To Use the VOLCASE Structure?
 VOLCASE is a small script that organizes a set of folders to keep you productive and organized in your own workflow.
@@ -91,5 +103,7 @@ _______________________________________________________________________
 
 # Recognition
 @aboutsecurity from Foundstone Intel Security Group on 'Fit for Purpose' feedback
+
 @rwgresham from Foundstone Intel Security Group on Bash prototypes for automation
+
 @jx212fs from Foundstone Intel Security Group on code refinement and 'can-do' attitude
