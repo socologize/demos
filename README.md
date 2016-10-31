@@ -62,61 +62,61 @@ When you run volatize.py in "--auto" or "--parse" mode, the Volatility plugins w
 
 ______________________________________________________________________
  PLUGINS/
-├── amcache.text
-├── atoms.text
-├── atomscan.text
-├── auditpol.text
-├── callbacks.text
-├── clipboard.text
-├── cmdscan.text
-├── connections.text
-├── connscan.text
-├── consoles.text
-├── dlllist.text
-├── drivermodule.text
-├── driverscan.text
-├── editbox.text
-├── envars.text
-├── eventhooks.text
-├── filescan.text
-├── gahti.text
-├── gditimers.text
-├── gdt.text
-├── getservicesids.text
-├── getsids.text
-├── handles.text
-├── hashdump.text
-├── hivelist.text
-├── hivescan.text
-├── idt.text
-├── iehistory.text
-├── joblinks.text
-├── ldrmodules.text
-├── malfind.text
-├── mbrparser.text
-├── messagehooks.text
-├── mftparser.text
-├── modscan.text
-├── modules.text
-├── mutantscan.text
-├── notepad.text
-├── objtypescan.text
-├── privs.text
-├── pslist.text
-├── psscan.text
-├── psxview.text
-├── sessions.text
-├── shellbags.text
-├── shimcache.text
-├── shutdowntime.text
-├── sockets.text
-├── sockscan.text
-├── ssdt.text
-├── svcscan.text
-├── symlinkscan.text
-├── thrdscan.text
-├── threads.text
-├── unloadedmodules.text
-├── userassist.text
-└── userhandles.text
-______________________________________________________________________
+	├── amcache.text
+	├── atoms.text
+	├── atomscan.text
+	├── auditpol.text
+	├── callbacks.text
+	├── clipboard.text
+	├── cmdscan.text
+	├── connections.text
+	├── connscan.text
+	├── consoles.text
+	├── dlllist.text
+	├── drivermodule.text
+	├── driverscan.text
+	├── editbox.text
+	├── envars.text
+	├── eventhooks.text
+	├── filescan.text
+	├── gahti.text
+	├── gditimers.text
+	├── gdt.text
+	├── getservicesids.text
+	├── getsids.text
+	├── handles.text
+	├── hashdump.text
+	├── hivelist.text
+	├── hivescan.text
+	├── idt.text
+	├── iehistory.text
+	├── joblinks.text
+	├── ldrmodules.text
+	├── malfind.text
+	├── mbrparser.text
+	├── messagehooks.text
+	├── mftparser.text
+	├── modscan.text
+	├── modules.text
+	├── mutantscan.text
+	├── notepad.text
+	├── objtypescan.text
+	├── privs.text
+	├── pslist.text
+	├── psscan.text
+	├── psxview.text
+	├── sessions.text
+	├── shellbags.text
+	├── shimcache.text
+	├── shutdowntime.text
+	├── sockets.text
+	├── sockscan.text
+	├── ssdt.text
+	├── svcscan.text
+	├── symlinkscan.text
+	├── thrdscan.text
+	├── threads.text
+	├── unloadedmodules.text
+	├── userassist.text
+	└── userhandles.text
+
