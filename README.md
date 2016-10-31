@@ -27,7 +27,7 @@ You need the following packages installed to use Volatize
 # Configuration Needed
 To have a clean experience of Volatize, we have to make a small modification to the Volatility application (i.e., vol.py)
 
-1. Find your Volatility main script.  Mine is is located under /usr/local/bin/vol.py
+1. Find your Volatility main script.  Mine is located under /usr/local/bin/vol.py
 >>> $ which vol.py
 
 2. Use an editor to edit LINE # 139 of vol.py by placing a pound symbol in front.  Should look like this:
