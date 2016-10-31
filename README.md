@@ -25,7 +25,7 @@ You need the following packages installed to use Volatize
 - Volatility
 
 # Why Volatize
-Intended to maximize productivity when analyzing memdumps.  I saved 71 minutes of just typing and waiting for output from the plugins I would run. Also, the concepts of playbooks being just visio diagrams and heard to manage scripts are a great benefit for those seeking to to digitize the playbooks they have within their orgs.  
+Intended to maximize productivity when analyzing memdumps.  I saved 71 minutes of just typing and waiting for output from the plugins I would run. Also, the concepts of playbooks being just visio diagrams and hard to manage scripts are a great benefit for those seeking to to digitize the playbooks they have within their orgs.  
 
 While many great researchers are developing Flask, Django or other forms of automated tools, I am focusing on lightweight CLI workflows. Kudos to the authors of such tools.
 
@@ -58,6 +58,65 @@ ______________________________________________________________________
 
 
 
- When you run volatize.py in "--auto" or "--parse" mode, the Volatility plugins will save text files under the PLUGINS folder.
- 
- 
+When you run volatize.py in "--auto" or "--parse" mode, the Volatility plugins will save text files under the PLUGINS folder.
+
+______________________________________________________________________
+ PLUGINS/
+├── amcache.text
+├── atoms.text
+├── atomscan.text
+├── auditpol.text
+├── callbacks.text
+├── clipboard.text
+├── cmdscan.text
+├── connections.text
+├── connscan.text
+├── consoles.text
+├── dlllist.text
+├── drivermodule.text
+├── driverscan.text
+├── editbox.text
+├── envars.text
+├── eventhooks.text
+├── filescan.text
+├── gahti.text
+├── gditimers.text
+├── gdt.text
+├── getservicesids.text
+├── getsids.text
+├── handles.text
+├── hashdump.text
+├── hivelist.text
+├── hivescan.text
+├── idt.text
+├── iehistory.text
+├── joblinks.text
+├── ldrmodules.text
+├── malfind.text
+├── mbrparser.text
+├── messagehooks.text
+├── mftparser.text
+├── modscan.text
+├── modules.text
+├── mutantscan.text
+├── notepad.text
+├── objtypescan.text
+├── privs.text
+├── pslist.text
+├── psscan.text
+├── psxview.text
+├── sessions.text
+├── shellbags.text
+├── shimcache.text
+├── shutdowntime.text
+├── sockets.text
+├── sockscan.text
+├── ssdt.text
+├── svcscan.text
+├── symlinkscan.text
+├── thrdscan.text
+├── threads.text
+├── unloadedmodules.text
+├── userassist.text
+└── userhandles.text
+______________________________________________________________________
