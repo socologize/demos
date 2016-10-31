@@ -22,7 +22,7 @@ ______________________________________________________________________
 
  Volatize.py By The Foundstone IR Group - Volatility Automation Tool
 
-	     Demo Version: GitHub://
+	     GitHub Demo Version: http://bit.ly/2eSI72J
 _____________________________________________________________________
 
 '''
