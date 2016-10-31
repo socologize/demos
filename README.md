@@ -39,7 +39,7 @@ Or if you just want to setup the case structure to parse memory:
 >>> $ volatize.py parsemem --setup --memory "path/to/memory/sample"
 
 # Quick Tutorial on Profile Independent Automation
-[![VOLATIZE DEMO](https://lh3.googleusercontent.com/oJZCPKaa0w8_TVtb90JL-yUOPNCR1qcIq3PXRwVpZtSUYS-wJnK6LvvcUrHJ0Ve5WuhYng=s152)](https://youtu.be/dWQ_tNAnKXA, "Volatize Auto")
+[![VOLATIZE DEMO](https://lh3.googleusercontent.com/oJZCPKaa0w8_TVtb90JL-yUOPNCR1qcIq3PXRwVpZtSUYS-wJnK6LvvcUrHJ0Ve5WuhYng=s152)](https://www.youtube.com/watch?v=dWQ_tNAnKXA, "Volatize Auto")
 
 # How To Use the VOLCASE Structure?
 VOLCASE is a small script that organizes a set of folders to keep you productive and organized in your own workflow.
