@@ -34,14 +34,25 @@ While many great researchers are developing Flask, Django or other forms of auto
 
 Kudos to the authors of such tools like vortessence, volutility, volatility-bot, etc.!
 
-# How To Run?
-if you have a memory sample and want to run in automode:
+# How To Run the Parse Memory mode?
+
+- You can run an automatic mode with the 'parsemem' mode:
 
 >>> $ volatize.py parsemem --auto --memory "path/to/memory/sample"
 
 Or if you just want to setup the case structure to parse memory:
 
 >>> $ volatize.py parsemem --setup --memory "path/to/memory/sample"
+
+This mode runs a series of Volatility plugins specific to the Windows Memory profile you have.
+
+# How To Run the Playbook mode?
+In Volatize, playbooks are ideas translated to script code that create a digitized playbook.  You can find the playbook scripts under the "playbook" folder.
+
+- You can run a playbook script by using the "playbook" mode:
+
+>>> $ volatize.py playbook < name of script >
+
 
 # Quick Explanation on Profile Independent Automation
 [![VOLATIZE DEMO](https://lh3.googleusercontent.com/oJZCPKaa0w8_TVtb90JL-yUOPNCR1qcIq3PXRwVpZtSUYS-wJnK6LvvcUrHJ0Ve5WuhYng=s152)](https://www.youtube.com/watch?v=dWQ_tNAnKXA, "Volatize Auto")
