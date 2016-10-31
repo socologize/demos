@@ -78,7 +78,7 @@ _______________________________________________________________________
 _______________________________________________________________________
 
 
-# Shoutouts
+# Recognition
 @aboutsecurity from Foundstone Intel Security Group on 'Fit for Purpose' feedback
 @rwgresham from Foundstone Intel Security Group on Bash prototypes for automation
 @jx212fs from Foundstone Intel Security Group on code refinement and 'can-do' attitude
