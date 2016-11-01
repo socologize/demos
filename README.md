@@ -82,6 +82,18 @@ In Volatize, playbooks are ideas translated to script code that create a digitiz
 >>> $ volatize.py playbook < name of script >
 
 
+# How to Run VTDUMPS.PY Script?
+This demo version has one script that leverages the VirusTotal Public API and conforms to Terms and Services.  To use this script in Volatize, do the following:
+
+- Create a Virustoatal account and get your API Key
+- In Volatize, go the folder named "triage" and open the file called "virustotal.py"
+- Under the < load_api() > function, copy/paste your API key
+- Close and save the virustotal.py file
+- From the command line run the command below. Ensure you have already created a VOLCASE structure and processed the image in automode
+
+>>> $ volatize.py playbook --vtdumps
+
+
 # Quick Explanation on Profile Independent Automation
 [![VOLATIZE DEMO](https://lh3.googleusercontent.com/oJZCPKaa0w8_TVtb90JL-yUOPNCR1qcIq3PXRwVpZtSUYS-wJnK6LvvcUrHJ0Ve5WuhYng=s152)](https://www.youtube.com/watch?v=dWQ_tNAnKXA, "Volatize Auto")
 
