@@ -86,7 +86,7 @@ In Volatize, playbooks are ideas translated to script code that create a digitiz
 This demo version has one script that leverages the VirusTotal Public API and conforms to Terms and Services.  To use this script in Volatize, do the following:
 
 - Create a Virustoatal account and get your API Key
-- In Volatize, go the folder named "triage" and open the file called "virustotal.py"
+- In Volatize, go to the folder named "triage" and open the file called "virustotal.py"
 - Under the < load_api() > function, copy/paste your API key
 - Close and save the virustotal.py file
 - From the command line run the command below. Ensure you have already created a VOLCASE structure and processed the image in automode
